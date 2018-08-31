@@ -9,6 +9,7 @@
 
     <div class="jumbotron text-center">
         <h1>Git Cheat Sheet</h1>
+        <h4>By Catherine Dow- 19218214</h4>
     </div>
 
     <div class="container-fluid">
@@ -40,9 +41,9 @@
                 <h2>INSTALLING GIT</h2>
                 <div class="col-md-12">
                   <img src="images/terminal.png" height="172" width="263" align="right"/>
-                  <h3>Windows</h3>
+                  <h3>Windows:</h3>
                   <p>Download and install GIT for Windows using <a href = "https://git-scm.com/download/win">this link.</a></p>
-                  <h3>OSX</h3>
+                  <h3>OSX:</h3>
                   <p>OSX provides a pre-installed version of GIT.</p>
                   <br>
                   <p>HINT: Type "git version" into your terminal to verify that GIT is installed onto your device- the terminal is the most common way to use GIT.</p>
@@ -52,7 +53,27 @@
         </tr>
         <tr class="item">
             <td id="repositories">
-              <h2>CREATING REPOSITORIES</h2>
+              <div>
+                <h2>CREATING REPOSITORIES</h2>
+                <div class="col-md-12">
+                  <img src="images/clone.png" height="172" width="263" align="right"/>                   
+                  <h3>Local Repositories:</h3>
+                  <p>In order to push your files to a remote server (i.e GITHub), you will first need to create a local repository:</p>
+                  <ul>
+                    <li>Create a new folder in any location.</li>
+                    <li>Within terminal, change directory to the newly created folder using the "cd <filepath>" command and replacing "<filepath>" with the file path of the folder.</li>
+                    <li>Once your terminal is in the correct directory, run the "git init" command to create a new local repository.</li>
+                  </ul>
+                  <p>HINT: To create a new folder from the terminal you can use the "mkdir <filename>" command, replacing "<filename>" with the name of your new directory.</p>
+                  <h3>Online Repository:</h3>
+                  <p>In order to push your local repository online, you will need to link your repository to GITHub:</p>
+                  <ul>
+                    <li>Use the "cd <filepath>" command to change the working directory to the local repository created above.</li>
+                    <li>link the local repository to the remote repository (i.e GITHub) by using the command "git add remote origin <server URL>".</li>
+                  </ul>
+                  <p>HINT: The server URL can be found on GITHub under the relevant online repository's page by clicking the "clone or download" button.</p>
+                </div>
+              </div>
             </td>
         </tr>
         <tr class="item">
